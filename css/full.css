@@ -1,0 +1,44 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+body {
+    /*background: url('http://placehold.it/1920x1080') no-repeat center center fixed;*/
+    background-color: #FF8F32;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
+}
+
+#landing-content {
+  padding: 10% 0;
+}
+
+.cover-inner {
+  color: #FFF;
+  text-align: center;
+}
+/* Progress bar */
+#landing-content .progress {
+  border: 1px solid #D79B3E;
+  height: 30px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+#landing-content .progress-bar {
+  padding-top: 5px;
+}
+
+#landing-content .progress-bar span {
+  font-size: 1.2em;
+}
