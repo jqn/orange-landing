@@ -1,8 +1,11 @@
-/*!
- * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+/* Custom Fonts */
+
+@font-face {
+   font-family: 'engravers-mt';
+   src: url('../fonts/engravers-mt.ttf');
+}
+
+/**************************/
 
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
@@ -27,18 +30,50 @@ body {
   color: #FFF;
   text-align: center;
 }
+
+/* Cover */
+.cover-heading {
+  font-family: engravers-mt;
+  font-size: 5em;
+}
+
+.lead {
+  font-size: 2.5em;
+}
+
 /* Progress bar */
 #landing-content .progress {
-  border: 1px solid #D79B3E;
-  height: 30px;
+  border: 2px solid #D79B3E;
+  border-radius: 8px;
+  height: 40px;
   width: 65%;
   margin: 0 auto;
 }
 
 #landing-content .progress-bar {
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 #landing-content .progress-bar span {
-  font-size: 1.2em;
+  font-size: 1.6em;
+}
+
+/* Media Queries */
+
+@media only screen and (max-device-width: 480px) {
+  .cover-heading {
+    font-size: 3em;
+  }
+
+  .lead {
+    font-size: 1.4em;
+  }
+
+  #landing-content .progress {
+    height: 60px;
+    width: 100%;
+  }
+  #landing-content .progress-bar span {
+    font-size: 1.2em;
+  }
 }
