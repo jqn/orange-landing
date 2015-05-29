@@ -60,6 +60,12 @@ body {
 
 /* Media Queries */
 
+@media only screen and (max-device-width : 1024px) {
+  #landing-content .progress-bar span {
+    font-size: 1em;
+  }
+}
+
 @media only screen and (max-device-width: 480px) {
   .cover-heading {
     font-size: 3em;
@@ -72,8 +78,5 @@ body {
   #landing-content .progress {
     height: 60px;
     width: 100%;
-  }
-  #landing-content .progress-bar span {
-    font-size: 1.2em;
   }
 }
