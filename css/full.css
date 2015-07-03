@@ -29,6 +29,7 @@ body {
 .cover-inner {
   color: #FFF;
   text-align: center;
+  background-image: url(../triangle.svg);
 }
 
 /* Cover */
